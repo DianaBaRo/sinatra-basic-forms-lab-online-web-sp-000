@@ -17,7 +17,7 @@ describe App do
       visit '/'
       expect(page).to have_link("List a Puppy", href: '/new')
     end
-  
+
   end
 
   describe 'GET /new' do
